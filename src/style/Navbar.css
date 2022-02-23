@@ -1,0 +1,114 @@
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #100342;
+    color: #fff;
+    padding: 25px;
+  }
+  .navbar__logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .navbar ul {
+    display: contents;
+  }
+  .navbar li {
+    list-style: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .navbar__search {
+    display: flex;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.287);
+    height: 40px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .navbar__search input {
+    border: none;
+    background-color: rgba(211, 211, 211, 0.02);
+    height: 40px;
+    outline-width: 0;
+    color: white;
+  }
+
+  .navbar__basket {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .navbar__login {
+    display: flex;
+    align-items: center;
+  }
+  .navbar__login button {
+    margin: 10px;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: #100342;
+    color: #fff;
+    justify-content: space-around;
+  }
+  .navbar__logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 0 0 1rem 1rem;
+  }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+
+  .navbar__search {
+    display: flex;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.287);
+    height: 40px;
+    padding: 10px;
+    border-radius: 4px;
+ 
+    justify-content: space-around;
+  }
+
+  .navbar__search input {
+    border: none;
+    background-color: rgba(211, 211, 211, 0.02);
+    height: 40px;
+    outline-width: 0;
+    color: white;
+  }
+
+  .navbar__basket {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .navbar__login {
+    display: flex;
+    align-items: center;
+  }
+  .navbar__login button {
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 1024px) {
+}
